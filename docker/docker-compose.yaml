@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    image: andrefelix/server-status:V2
+    container_name: server_status_app
+    ports:
+      - 8080:8080
