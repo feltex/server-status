@@ -1,6 +1,6 @@
 # server-status-app
 
-Projeto que exibe o status do servidor onde a aplicação está rodando.
+Projeto que exibe o status do servidor onde a aplicação está rodando. Link do vídeo https://youtu.be/-8_dCdNquM8
 
 
 
@@ -18,3 +18,4 @@ Veja toda a playlist sobre AWS completa no youtube:
 - https://youtu.be/3e1hGPVWl8c - Como Salvar Dados na Amazon S3
 - https://youtu.be/sBmONQSMI0c - Como Criar um Banco de Dados MySQL na amazon 
 - https://youtu.be/uG_cOXCjJnY - Como Instalar sua aplicação na Amazon Usando EC2
+- https://youtu.be/-8_dCdNquM8 - Como usar o amazon Elastic Beanstalk | Via o browser
