@@ -19,3 +19,4 @@ Veja toda a playlist sobre AWS completa no youtube:
 - https://youtu.be/sBmONQSMI0c - Como Criar um Banco de Dados MySQL na amazon 
 - https://youtu.be/uG_cOXCjJnY - Como Instalar sua aplicação na Amazon Usando EC2
 - https://youtu.be/-8_dCdNquM8 - Como usar o amazon Elastic Beanstalk | Via o browser
+- https://youtu.be/G0lr1E7U7M8 - Usando Docker na amazon - publicando imagens
