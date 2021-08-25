@@ -1,6 +1,6 @@
 # server-status-app
 
-Projeto que exibe o status do servidor onde a aplicação está rodando. Link do vídeo https://youtu.be/-8_dCdNquM8
+Projeto que exibe o status do servidor onde a aplicação está rodando. Link do vídeo https://youtu.be/feltexbr
 
 
 
@@ -35,7 +35,7 @@ Veja toda a playlist sobre AWS completa no youtube:
 1. Adicione esta linhas ao seu arquivo .elasticbeanstalk/config.yml    
    ```
         deploy:
-            artifact: target/spring-boot-bootstrap-eb.jar
+            artifact: target/server-status.jar
     ```
 1. Criar o ambiente. 
     ```

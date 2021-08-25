@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: server-status
+  name: server-status
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: server-status
+  template:
+    metadata:
+      labels:
+        app: server-status
+    spec:
+      containers:
+      - image: andrefelix/server-status:V2
+        name: server-status
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: server-status
+  name: server-status
+spec:
+  ports:
+    - port: 8080
+      targetPort: 8080
+  selector:
+    app: server-status
+  type: LoadBalancer
