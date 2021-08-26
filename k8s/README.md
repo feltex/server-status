@@ -29,7 +29,7 @@ Let o IP e porta do serviço
 
     minikube service server-status --url
 
-Abra o browser e acessar o IP obtido
+Abra o browser e acessar o IP obtido ou utilize o comando curl
 
 
 Listar os pods
