@@ -5,9 +5,9 @@ Projeto que exibe o status do servidor onde a aplicação está rodando. Link do
 
 ## Comando para executar localmente
 
-Iniciar o cluster
+Iniciar o cluster utilizando o docker
 
-    minikube start
+    minikube start --driver=docker    
 
 Verificar o status do Cluster
 
@@ -25,7 +25,7 @@ Ler informações dos recursos do cluster
 
     kubectl get all
 
-Let o IP e porta do serviço 
+Ler o IP e porta do serviço 
 
     minikube service server-status --url
 
