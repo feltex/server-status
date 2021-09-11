@@ -22,6 +22,8 @@
 # Acessando o container
 
     curl http://localhost:8080 # Vai dar erro, pois o container não está rodando na nossa máquina e sim na VM
+    
+    docker-machine ip vm-docker 
 
     curl http://<IP-VM>:8080
 
