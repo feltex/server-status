@@ -79,7 +79,3 @@ Veja toda a playlist sobre AWS completa no youtube:
   `docker push andrefelix/server-status:v5`
   
   
-  
-  
-    
-  
