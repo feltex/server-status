@@ -65,4 +65,21 @@ Veja toda a playlist sobre AWS completa no youtube:
 1. Terminar todas as instâncias. Adicione (--force) para evitar a confirmação.
 
     ```eb terminate --all```
+    
+    
+    
+  ##  Gerando a image Docker do projeto
+  
+  ### Criar a imagem localmente
+  
+  `docker build -t andrefelix/server-status:v5 .`
+  
+  ### Enviar a imagem para o DockerHub
+  
+  `docker push andrefelix/server-status:v5`
+  
+  
+  
+  
+    
   
