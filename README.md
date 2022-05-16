@@ -63,8 +63,7 @@ Veja toda a playlist sobre AWS completa no youtube:
    
 1. Terminar todas as instâncias. Adicione (--force) para evitar a confirmação.
 
-    ```eb terminate --all```
-    
+    ```eb terminate --all``` 
     
     
   ##  Gerando a image Docker do projeto
