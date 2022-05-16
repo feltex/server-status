@@ -3,7 +3,6 @@
 Projeto que exibe o status do servidor onde a aplicação está rodando. Link do vídeo https://youtu.be/feltexbr
 
 
-
 ## Acesse o nosso Canal no Youtube
 
 https://www.youtube.com/feltexbr
