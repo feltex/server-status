@@ -16,7 +16,7 @@ public class Status {
     @GetMapping
     public String status() throws UnknownHostException {
         var localhost = InetAddress.getLocalHost();
-        return MessageFormat.format("[server-status] - Ip: {0} hostName: {1}",
+        return MessageFormat.format("[server-status/DOCKER] - Ip: {0} hostName: {1}",
                 localhost.getHostAddress(),
                 localhost.getHostName());
     }
