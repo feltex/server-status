@@ -75,3 +75,6 @@ Veja toda a playlist sobre AWS completa no youtube:
   ### Enviar a imagem para o DockerHub
   
   `docker push andrefelix/server-status:v5`
+  
+  
+  
