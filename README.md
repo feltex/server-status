@@ -26,23 +26,28 @@ Veja toda a playlist sobre AWS completa no youtube:
 
 ### Usando Maven + Spring Boot action 
 
+
+Rodar o projeto
 ```shell
 mvn spring-boot:run
 ```
 
 [Acesse](http://localhost:8080/)
 
+
+Parar o projeto
 ```shell
 mvn spring-boot:stop
 ```
 
-
 ### Usando Maven + Jar
 
+Gerar o arquivo jar
 ```shell
 mvn clean install
 ```
 
+Executar o projeto
 ```shell
 java -jar target/server-status.jar  
 ```
@@ -65,6 +70,11 @@ docker-compose -f docker/docker-compose.yaml up
 ```
 
 [Acesse](http://localhost:8080/)
+
+
+```shell
+docker-compose -f docker/docker-compose.yaml down
+```
 
 
 ## Deploy no ElasticBeanstalk
