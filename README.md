@@ -21,6 +21,52 @@ Veja toda a playlist sobre AWS completa no youtube:
 - https://youtu.be/G0lr1E7U7M8 - Usando Docker na amazon - publicando imagens
 
 
+
+## Rodando o projeto
+
+### Usando Maven + Spring Boot action 
+
+```shell
+mvn spring-boot:run
+```
+
+[Acesse](http://localhost:8080/)
+
+```shell
+mvn spring-boot:stop
+```
+
+
+### Usando Maven + Jar
+
+```shell
+mvn clean install
+```
+
+```shell
+java -jar target/server-status.jar  
+```
+
+[Acesse](http://localhost:8080/)
+
+
+### Usando Docker
+
+```shell
+docker run  --name server_status_docker -p 8080:8080 andrefelix/server-status:V2
+```
+
+[Acesse](http://localhost:8080/)
+
+### Usando Docker-compose
+
+```shell
+docker-compose -f docker/docker-compose.yaml up
+```
+
+[Acesse](http://localhost:8080/)
+
+
 ## Deploy no ElasticBeanstalk
 
 1. Instalar o Beanstalk command line
