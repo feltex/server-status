@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.feltex</groupId>
-	<artifactId>status-app</artifactId>
+	<artifactId>server-status</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>server-status</name>
 	<description>Show the info from the Server</description>
